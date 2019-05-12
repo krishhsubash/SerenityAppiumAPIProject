@@ -1,0 +1,46 @@
+version: "3"
+services:
+  zalenium:
+      image: "dosel/zalenium"
+      container_name: zalenium
+      hostname: zalenium
+      tty: true
+      volumes:
+      - /C/Users/subkrish2/temp/videos:/var/tmp/src/videos
+      - /var/run/docker.sock:/var/run/docker.sock
+      ports:
+      - 4444:4444
+      command: >
+        start --desiredContainers 2
+              --maxDockerSeleniumContainers 8
+              --screenWidth 800 --screenHeight 600
+              --timeZone "Europe/Berlin"
+              --videoRecordingEnabled true
+              --sauceLabsEnabled false
+              --browserStackEnabled false
+              --testingBotEnabled false
+              --cbtEnabled false
+              --startTunnel false
+      environment:
+      - HOST_UID
+      - HOST_GID
+      - SAUCE_USERNAME
+      - SAUCE_ACCESS_KEY
+      - BROWSER_STACK_USER
+      - BROWSER_STACK_KEY
+      - TESTINGBOT_KEY
+      - TESTINGBOT_SECRET
+      - CBT_USERNAME
+      - CBT_AUTHKEY
+  mvnSetup:
+      image: "maven"
+      volumes:
+      - ./:/var/tmp
+      - C:/Users/subkrish2/.m2:/root/.m2
+      working_dir: /var/tmp
+      command:
+      - sh
+      - '-c'
+      - "mvn clean test verify"
+      ports:
+      - 7070:7070
