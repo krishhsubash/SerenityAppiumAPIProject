@@ -6,4 +6,9 @@ pipeline {
             }
 
         }
+        stages('Bring Grid Down') {
+            steps {
+                bat "docker-compose down"
+            }
+        }
 }
