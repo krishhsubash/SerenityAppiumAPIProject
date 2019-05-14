@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+        stages('Execute docker compose Command') {
+            steps {
+                bat "docker-compose up"
+            }
+
+        }
+}
