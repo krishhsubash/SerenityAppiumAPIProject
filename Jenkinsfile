@@ -6,8 +6,9 @@ pipeline {
             }
 
         }
-        stages('Bring Grid Down') {
-            steps {
+        post {
+            always {
+                archiveArtifacts artifacts: 'target/**'
                 bat "docker-compose down"
             }
         }
