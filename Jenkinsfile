@@ -1,21 +1,16 @@
-	node {
-   def mvnHome
-   stage('Preparation') { // for display purposes
-      // Get some code from a GitHub repository
-      git 'https://github.com/krishhsubash/SerenityAppiumAPIProject.git'
-      // Get the Maven tool.
-      // ** NOTE: This 'M3' Maven tool must be configured
-      // **       in the global configuration.           
-      mvnHome = tool name: 'maven3', type: 'maven'
-   }
-   stage('Build') {
-      // Run the maven build
-      withEnv(["MVN_HOME=$mvnHome"]) {
-         if (isUnix()) {
-            sh '"$MVN_HOME/bin/mvn clean test verify" -Dmaven.test.failure.ignore clean package'
-         } else {
-            bat(/"%MVN_HOME%\bin\mvn clean test verify" -Dmaven.test.failure.ignore clean package/)
-         }
-      }
-   }
+pipeline {
+    agent none
+    stages {
+        stage('Build Jar') {
+            agent {
+                docker {
+                    image 'maven:3-alpine'
+                    args '-v /root/.m2:/root/.m2'
+                }
+            }
+            steps {
+                sh 'mvn clean test verify'
+            }
+        }
+	}
 }
