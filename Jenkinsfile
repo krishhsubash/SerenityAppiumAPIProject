@@ -1,15 +1,28 @@
 pipeline {
     agent any
-        stages('Execute docker compose Command') {
+    tools {
+        maven 'Maven 3.3.9'
+        jdk 'jdk8'
+    }
+    stages {
+        stage ('Initialize') {
             steps {
-                bat "docker-compose up"
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                '''
             }
+        }
 
-        }
-        post {
-            always {
-                archiveArtifacts artifacts: 'target/**'
-                bat "docker-compose down"
+        stage ('Build') {
+            steps {
+                sh 'mvn clean test verify'
+            }
+            post {
+                success {
+                    junit 'target/surefire-reports/**/*.xml'
+                }
             }
         }
+    }
 }

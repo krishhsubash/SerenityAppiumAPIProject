@@ -1,72 +1,34 @@
 version: "3"
 services:
-  zalenium:
-      container_name: zalenium
-      image: "dosel/zalenium"
-      hostname: zalenium
-      tty: true
-      volumes:
-      - /C/Users/subkrish2/temp/videos:/var/tmp/src/videos
-      - /var/run/docker.sock:/var/run/docker.sock
-      networks:
-        testingNet:
-          ipv4_address: 172.18.1.4
-      ports:
-      - 4444:4444
-      command: >
-        start --desiredContainers 2
-              --maxDockerSeleniumContainers 8
-              --screenWidth 800 --screenHeight 600
-              --timeZone "Europe/Berlin"
-              --videoRecordingEnabled true
-              --sauceLabsEnabled false
-              --browserStackEnabled false
-              --testingBotEnabled false
-              --cbtEnabled false
-              --startTunnel false
-      environment:
-      - HOST_UID
-      - HOST_GID
-      - SAUCE_USERNAME
-      - SAUCE_ACCESS_KEY
-      - BROWSER_STACK_USER
-      - BROWSER_STACK_KEY
-      - TESTINGBOT_KEY
-      - TESTINGBOT_SECRET
-      - CBT_USERNAME
-      - CBT_AUTHKEY
   jenkins:
-      container_name: jenkins
-      image: "jenkins/jenkins:lts"
-      restart: always
-      volumes:
-      - ./jenkins_data:/var/jenkins_home
-      - ./home:/home
-      networks:
-        testingNet:
-          ipv4_address: 172.18.1.2
-      ports:
-      - 8181:8181
-      - 50000:50000
-
-
-  mvnSetup:
-      container_name: maven
-      image: "maven"
-      volumes:
-      - ./:/var/tmp
-      - C:/Users/subkrish2/.m2:/root/.m2
-      working_dir: /var/tmp
-      command:
-      - sh
-      - '-c'
-      - "mvn clean test verify"
-      networks:
-        testingNet:
-          ipv4_address: 172.18.1.3
-      ports:
-      - 7070:7070
-
+    container_name: jenkins
+    image: "jenkins/jenkins:lts"
+    restart: always
+    volumes:
+    - ./jenkins:/var/jenkins_home
+    networks:
+      testingNet:
+        ipv4_address: 172.18.1.10
+    ports:
+    - 8080:8080
+    - 50000:50000
+  jenkins-slave:
+    container_name: jenkins-slave
+    restart: always
+    image: "jenkins/jnlp-slave"
+    environment:
+      JENKINS_URL: "http://172.18.1.10:8080"
+      JENKINS_SECRET: "ae117232e58c468e43d4408d21df01370bd3d02a38f0df30ae897432ebe5e8dc"
+      JENKINS_AGENT_NAME: "DockerNode"
+      JENKINS_AGENT_WORKDIR: "C://Users//subkrish2//jenkinsSlave"
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock  # Expose the docker daemon in the container
+    - ./jenkinsSlave:/var/jenkins_home/slave # Avoid mysql volume mount issue
+    depends_on:
+    - jenkins
+    networks:
+      testingNet:
+        ipv4_address: 172.18.1.6
 networks:
   testingNet:
       ipam:

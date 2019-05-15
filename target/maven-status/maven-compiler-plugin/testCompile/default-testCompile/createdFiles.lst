@@ -1,0 +1,17 @@
+serenity/steps/serenity/LoginPageSerenitySteps.class
+xmlConfig/Environment.class
+serenity/steps/DefinitionSteps.class
+xmlConfig/Environments.class
+serenity/steps/HomePageSteps.class
+serenity/steps/serenity/EndUserSteps.class
+serenity/pages/HomePage.class
+xmlConfig/Parameter.class
+xmlConfig/EnvironmentFactory.class
+serenity/pages/DictionaryPage.class
+serenity/pages/MybrowsecapEnhancer.class
+serenity/pages/BasePage.class
+serenity/steps/LoginPageSteps.class
+serenity/steps/serenity/HomePageSerenitySteps.class
+xmlConfig/Constants.class
+serenity/DefinitionTestSuite.class
+serenity/pages/LoginPage.class
