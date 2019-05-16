@@ -1,14 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Build Jar') {
-        agent {
-            docker {
-                image 'maven:3-alpine'
-                args '-v $HOME/.m2:/root/.m2'
-            }
-            }
-        }
         stage('Build Image') {
             steps {
                 script {
@@ -35,6 +27,7 @@ pipeline {
         stage('stop docker') {
             steps {
                 sh "docker-compose -f docker-compose1.yaml down"
+                sh "docker-compose -f docker-compose.yaml down"
             }
         }
      }
