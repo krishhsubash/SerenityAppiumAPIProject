@@ -6,6 +6,8 @@ services:
     restart: always
     volumes:
     - ./jenkins:/var/jenkins_home
+    environment:
+      JENKINS_OPTS: "hudson.remoting.Launcher.pingIntervalSec=-1"
     networks:
       testingNet:
         ipv4_address: 172.18.1.10

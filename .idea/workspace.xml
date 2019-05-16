@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d8d2fadb-12f7-4e87-b4cd-dd1b0c15bfe0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/.owner" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/.owner" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/copy_reference_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/copy_reference_file.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.lock.db" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.lock.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.2" afterDir="false" />
@@ -16,7 +25,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/queue.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml.bak" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,8 +57,8 @@
           <entry key="jenkinsFile" value="262" />
           <entry key="properties" value="302" />
           <entry key="txt" value="28" />
-          <entry key="xml" value="121" />
-          <entry key="yaml" value="804" />
+          <entry key="xml" value="127" />
+          <entry key="yaml" value="808" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -58,8 +67,8 @@
           <entry key="JAVA" value="1338" />
           <entry key="PLAIN_TEXT" value="1503" />
           <entry key="Properties" value="302" />
-          <entry key="XML" value="121" />
-          <entry key="YAML" value="804" />
+          <entry key="XML" value="127" />
+          <entry key="YAML" value="808" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,10 +80,11 @@
           <entry key="feature" value="5" />
           <entry key="java" value="32" />
           <entry key="jenkinsFile" value="1" />
+          <entry key="log" value="1" />
           <entry key="properties" value="4" />
           <entry key="vm" value="1" />
-          <entry key="xml" value="7" />
-          <entry key="yaml" value="5" />
+          <entry key="xml" value="29" />
+          <entry key="yaml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -82,10 +92,10 @@
           <entry key="CLASS" value="6" />
           <entry key="Cucumber" value="6" />
           <entry key="JAVA" value="32" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="7" />
-          <entry key="YAML" value="5" />
+          <entry key="XML" value="29" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -93,28 +103,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serenity.properties">
+        <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.emailext.ExtendedEmailPublisher.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.git.GitSCM.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.timestamper.TimestamperConfig.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins/jenkins.model.JenkinsLocationConfiguration.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jenkins/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/jenkins/jenkins.mvn.GlobalMavenConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -122,61 +148,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose1.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+            <state relative-caret-position="-215">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+        <entry file="file://$PROJECT_DIR$/docker-compose1.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="714">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/serenity/DefinitionTestSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/Login.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/MybrowsecapEnhancer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/jenkins/queue.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -187,6 +176,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hudson.slaves.ChannelPinger.pingInterval</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -230,9 +224,11 @@
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/jenkinsFile" />
         <option value="$PROJECT_DIR$/dockerframework-compose.yaml" />
-        <option value="$PROJECT_DIR$/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/docker/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/jenkins/config.xml" />
+        <option value="$PROJECT_DIR$/jenkins/hudson.plugins.build_timeout.operations.BuildStepOperation.xml" />
+        <option value="$PROJECT_DIR$/docker-compose.yaml" />
       </list>
     </option>
   </component>
@@ -262,52 +258,26 @@
             <path>
               <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="SeleniumPipelineProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="consult_dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,7 +286,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558014941397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558027731852" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -458,41 +428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-cucumber/1.6.6/serenity-cucumber-1.6.6.jar!/net/serenitybdd/cucumber/CucumberWithSerenity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/steps/LoginPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/steps/serenity/HomePageSerenitySteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/2.0.48/serenity-core-2.0.48.jar!/net/serenitybdd/core/pages/PageObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -719,27 +654,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose1.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/jenkins/credentials.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/nodes/DockerNode/config.xml">
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.CLI.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/logs/slaves/DockerNode/slave.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/users/admin_5716194804068590019/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/users/users.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/nodes/DockerNode/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/github-plugin-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.model.UpdateCenter.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.build_timeout.operations.BuildStepOperation.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.emailext.ExtendedEmailPublisher.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.git.GitSCM.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.timestamper.TimestamperConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/scriptApproval.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/queue.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.mvn.GlobalMavenConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.model.JenkinsLocationConfiguration.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose1.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>
