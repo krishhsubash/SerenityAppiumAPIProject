@@ -1,10 +1,23 @@
 pipeline {
-    agent none
+    agent any
     stages {
-        stage('Run Tests') {
+        stage('Build Jar') {
             steps {
-                bat "docker-compose -f docker-compose1.yaml up"
+                bat "mvn clean package test verify"
+                    }
                 }
+        stage('Build Image') {
+            steps {
+                bat "docker build -t='krishhsubash/automationFramework' ."
             }
         }
-	}
+        stage('Push Image') {
+            steps {
+                    withCredentials([usernamePassword(credentialsId:'dockerhub',passwordVariable:'pass',usernameVariable:'user')])
+                    bat "docker login --username=${user} --password=${pass}"
+                    bat "docker push krishhsubash/automationFramework:latest"
+            }
+
+        }
+     }
+}
