@@ -1,28 +1,10 @@
 pipeline {
-    agent any
-    tools {
-        maven 'Maven 3.3.9'
-        jdk 'jdk8'
-    }
+    agent none
     stages {
-        stage ('Initialize') {
+        stage('Run Tests') {
             steps {
-                sh '''
-                    echo "PATH = ${PATH}"
-                    echo "M2_HOME = ${M2_HOME}"
-                '''
-            }
-        }
-
-        stage ('Build') {
-            steps {
-                sh 'mvn clean test verify'
-            }
-            post {
-                success {
-                    junit 'target/surefire-reports/**/*.xml'
+                bat "docker-compose -f docker-compose1.yaml up"
                 }
             }
         }
-    }
-}
+	}
