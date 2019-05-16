@@ -3,82 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="d8d2fadb-12f7-4e87-b4cd-dd1b0c15bfe0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.lock.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/log-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/13/workflow/9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/changelog0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/log-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/28.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/14/workflow/9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/15/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/15/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/15/log-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/16/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/16/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/16/log-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/17/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/17/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/17/log-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/18/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/18/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/18/log-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/slaves/DockerNode/slave.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/copy_reference_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/copy_reference_file.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml.bak" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,7 +73,7 @@
           <entry key="jenkinsFile" value="1" />
           <entry key="properties" value="4" />
           <entry key="vm" value="1" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="7" />
           <entry key="yaml" value="5" />
         </counts>
       </usages-collector>
@@ -145,7 +84,7 @@
           <entry key="JAVA" value="32" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="7" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
@@ -201,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+            <state relative-caret-position="68">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -236,15 +175,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-model/2.0.48/serenity-model-2.0.48.jar!/net/thucydides/core/model/TestOutcome.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4233">
-              <caret line="318" column="30" selection-start-line="318" selection-start-column="30" selection-end-line="318" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -386,7 +316,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558014646446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558014941397" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -803,10 +733,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/nodes/DockerNode/config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
