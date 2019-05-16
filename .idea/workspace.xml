@@ -2,30 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d2fadb-12f7-4e87-b4cd-dd1b0c15bfe0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/.owner" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/.owner" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/copy_reference_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/copy_reference_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins-jobs/jenkins-jobs.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/DockerContainerWatchdog Asynchronous Periodic Work.log.5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.2" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.3" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.4" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.5" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log.5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/queue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml.bak" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +34,7 @@
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="Feature" value="22" />
-          <entry key="Jenkinsfile" value="779" />
+          <entry key="Jenkinsfile" value="1152" />
           <entry key="feature" value="29" />
           <entry key="java" value="1338" />
           <entry key="jenkinsFile" value="262" />
@@ -64,7 +48,7 @@
         <counts>
           <entry key="Cucumber" value="51" />
           <entry key="JAVA" value="1338" />
-          <entry key="PLAIN_TEXT" value="1074" />
+          <entry key="PLAIN_TEXT" value="1447" />
           <entry key="Properties" value="302" />
           <entry key="XML" value="121" />
           <entry key="YAML" value="804" />
@@ -148,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" selection-end-line="23" />
+            <state relative-caret-position="325">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -333,7 +317,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557999259154" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558004427640" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -752,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" selection-end-line="23" />
+        <state relative-caret-position="325">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>

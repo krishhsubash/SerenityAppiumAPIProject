@@ -2,22 +2,40 @@ pipeline {
     agent any
     stages {
         stage('Build Jar') {
-            steps {
-                bat "mvn clean package test verify"
-                    }
-                }
+        agent {
+            docker {
+                image 'maven:3-alpine'
+                args -v  - C:/Users/subkrish2/.m2:/root/.m2
+            }
+            }
+        }
         stage('Build Image') {
             steps {
-                bat "docker build -t='krishhsubash/automationFramework' ."
+                script {
+                    app = docker.build("krishhsubash/automationFramework")
+                }
             }
         }
         stage('Push Image') {
             steps {
-                    withCredentials([usernamePassword(credentialsId:'dockerhub',passwordVariable:'pass',usernameVariable:'user')])
-                    bat "docker login --username=${user} --password=${pass}"
-                    bat "docker push krishhsubash/automationFramework:latest"
+                  script {
+                        docker.withRegistry('https://registry.hub.docker.com','dockerhub') {
+                        app.push("${BUILD_NUMBER}")
+                        app.push("latest")
+                        }
+                  }
             }
 
+        }
+        stage('Start test') {
+            steps {
+                sh "docker-compose -f docker-compose1.yaml up"
+            }
+        }
+        stage('stop docker') {
+            steps {
+                sh "docker-compose -f docker-compose1.yaml down"
+            }
         }
      }
 }
