@@ -5,31 +5,13 @@ services:
     image: "jenkins/jenkins:lts"
     restart: always
     volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
     - ./jenkins:/var/jenkins_home
     networks:
       testingNet:
         ipv4_address: 172.18.1.10
     ports:
     - 8080:8080
-    - 50000:50000
-  jenkins-slave:
-    container_name: jenkins-slave
-    restart: always
-    image: "jenkins/jnlp-slave"
-    environment:
-      JENKINS_URL: "http://172.18.1.10:8080"
-      JENKINS_SECRET: "ae117232e58c468e43d4408d21df01370bd3d02a38f0df30ae897432ebe5e8dc"
-      JENKINS_AGENT_NAME: "DockerNode"
-      JENKINS_AGENT_WORKDIR: "C://Users//subkrish2//jenkinsSlave"
-      JENKINS_OPTS: "-Dhudson.remoting.Launcher.pingIntervalSec=-1"
-    volumes:
-    - /var/run/docker.sock:/var/run/docker.sock  # Expose the docker daemon in the container
-    - ./jenkinsSlave:/var/jenkins_home/slave # Avoid mysql volume mount issue
-    depends_on:
-    - jenkins
-    networks:
-      testingNet:
-        ipv4_address: 172.18.1.6
 networks:
   testingNet:
       ipam:

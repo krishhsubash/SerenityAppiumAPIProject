@@ -4,7 +4,7 @@
   <version>2.164.3</version>
   <installStateName>RUNNING</installStateName>
   <numExecutors>2</numExecutors>
-  <mode>NORMAL</mode>
+  <mode>EXCLUSIVE</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
     <denyAnonymousReadAccess>true</denyAnonymousReadAccess>
