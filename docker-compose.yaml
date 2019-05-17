@@ -6,8 +6,6 @@ services:
     restart: always
     volumes:
     - ./jenkins:/var/jenkins_home
-    environment:
-      JENKINS_OPTS: "-Dhudson.remoting.Launcher.pingIntervalSec=-1"
     networks:
       testingNet:
         ipv4_address: 172.18.1.10
@@ -23,6 +21,7 @@ services:
       JENKINS_SECRET: "ae117232e58c468e43d4408d21df01370bd3d02a38f0df30ae897432ebe5e8dc"
       JENKINS_AGENT_NAME: "DockerNode"
       JENKINS_AGENT_WORKDIR: "C://Users//subkrish2//jenkinsSlave"
+      JENKINS_OPTS: "-Dhudson.remoting.Launcher.pingIntervalSec=-1"
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock  # Expose the docker daemon in the container
     - ./jenkinsSlave:/var/jenkins_home/slave # Avoid mysql volume mount issue
