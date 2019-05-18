@@ -7,7 +7,7 @@ services:
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
     - ./jenkins:/var/jenkins_home
-    - /usr/bin/docker:/usr/bin/docker
+    - /usr/local/bin/docker:/usr/local/bin/docker
     networks:
       testingNet:
         ipv4_address: 172.18.1.10

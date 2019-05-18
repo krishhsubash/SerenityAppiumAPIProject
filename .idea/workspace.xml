@@ -5,28 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/.java/fonts/1.8.0_212/fcinfo-1-aa974032d05a-Linux-4.9.125-linuxkit-en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/copy_reference_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/copy_reference_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/hudson.plugins.emailext.ExtendedEmailPublisher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/identity.key.enc" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/identity.key.enc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jenkins.telemetry.Correlator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jenkins.telemetry.Correlator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/queue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/queue.xml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/secret.key" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/secret.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/secrets/hudson.console.ConsoleNote.MAC" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/secrets/hudson.console.ConsoleNote.MAC" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/secrets/hudson.model.Job.serverCookie" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/secrets/hudson.model.Job.serverCookie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/secrets/jenkins.model.Jenkins.crumbSalt" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/secrets/jenkins.model.Jenkins.crumbSalt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/secrets/master.key" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/secrets/master.key" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/secrets/org.jenkinsci.main.modules.instance_identity.InstanceIdentity.KEY" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/secrets/org.jenkinsci.main.modules.instance_identity.InstanceIdentity.KEY" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/secrets/org.jenkinsci.plugins.workflow.log.ConsoleAnnotators.consoleAnnotator" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/secrets/org.jenkinsci.plugins.workflow.log.ConsoleAnnotators.consoleAnnotator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/users/admin_8315982509216257145/config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/users/users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins/users/users.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +37,7 @@
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="Feature" value="22" />
-          <entry key="Jenkinsfile" value="1482" />
+          <entry key="Jenkinsfile" value="1497" />
           <entry key="dockerfile" value="45" />
           <entry key="feature" value="29" />
           <entry key="java" value="1338" />
@@ -63,17 +45,17 @@
           <entry key="properties" value="302" />
           <entry key="txt" value="28" />
           <entry key="xml" value="127" />
-          <entry key="yaml" value="1020" />
+          <entry key="yaml" value="1032" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="51" />
           <entry key="JAVA" value="1338" />
-          <entry key="PLAIN_TEXT" value="1822" />
+          <entry key="PLAIN_TEXT" value="1837" />
           <entry key="Properties" value="302" />
           <entry key="XML" value="127" />
-          <entry key="YAML" value="1020" />
+          <entry key="YAML" value="1032" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -121,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -144,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="153">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -631,17 +613,17 @@
     <entry file="file://$PROJECT_DIR$/jenkinsSlave/dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose2.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -654,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
