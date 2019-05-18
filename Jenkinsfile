@@ -1,18 +1,22 @@
 pipeline {
     agent any
+    tools {
+        maven 'Maven 3.3.9'
+        jdk 'jdk8'
+    }
     stages {
-        stage('Start Zalenium') {
+        stage ('Running Tests') {
             steps {
-                script {
-                    sh "/usr/local/bin/docker-compose -f docker-compose1.yaml up"
-                }
+                sh '''
+                    mvn clean test verify
+                '''
             }
         }
-        stage('stop docker') {
+
+        stage ('Docker down') {
             steps {
-                sh "/usr/local/bin/docker-compose -f docker-compose1.yaml down"
-                sh "/usr/local/bin/docker-compose -f docker-compose.yaml down"
+                docker-compose down
             }
         }
-     }
+    }
 }

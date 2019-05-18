@@ -4,9 +4,11 @@ services:
     container_name: jenkins
     image: "jenkins/jenkins:lts"
     restart: always
+    user: 1000:1000
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
     - ./jenkins:/var/jenkins_home
+    - /usr/bin/docker:/usr/bin/docker
     networks:
       testingNet:
         ipv4_address: 172.18.1.10
@@ -30,6 +32,41 @@ services:
     networks:
       testingNet:
         ipv4_address: 172.18.1.6
+  zalenium:
+    container_name: zalenium
+    image: "dosel/zalenium"
+    hostname: zalenium
+    tty: true
+    volumes:
+    - /C/Users/subkrish2/temp/videos:/var/tmp/src/videos
+    - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      testingNet:
+        ipv4_address: 172.18.1.4
+    ports:
+    - 4444:4444
+    command: >
+      start --desiredContainers 2
+            --maxDockerSeleniumContainers 8
+            --screenWidth 800 --screenHeight 600
+            --timeZone "Europe/Berlin"
+            --videoRecordingEnabled true
+            --sauceLabsEnabled false
+            --browserStackEnabled false
+            --testingBotEnabled false
+            --cbtEnabled false
+            --startTunnel false
+    environment:
+    - HOST_UID
+    - HOST_GID
+    - SAUCE_USERNAME
+    - SAUCE_ACCESS_KEY
+    - BROWSER_STACK_USER
+    - BROWSER_STACK_KEY
+    - TESTINGBOT_KEY
+    - TESTINGBOT_SECRET
+    - CBT_USERNAME
+    - CBT_AUTHKEY
 networks:
   testingNet:
       ipam:
