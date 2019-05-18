@@ -13,9 +13,9 @@ pipeline {
             }
         }
 
-        stage ('Docker down') {
+        stage ('Docker compose run tests') {
             steps {
-                docker-compose down
+                docker-compose -f docker-compose1.yaml up
             }
         }
     }
