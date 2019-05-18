@@ -4,7 +4,6 @@ services:
     container_name: jenkins
     image: "jenkins/jenkins:lts"
     restart: always
-    user: 1000:1000
     volumes:
     - /var/run/docker.sock:/var/run/docker.sock
     - ./jenkins:/var/jenkins_home
@@ -14,59 +13,6 @@ services:
         ipv4_address: 172.18.1.10
     ports:
     - 8080:8080
-  jenkins-slave:
-    container_name: jenkins-slave
-    restart: always
-    image: "jenkins/jnlp-slave"
-    environment:
-      JENKINS_URL: "http://172.18.1.10:8080"
-      JENKINS_SECRET: "d09c6790e1c88a81f11f2fb7b56ac8141fd8b1331da8c6bc70c352873cb5efc2"
-      JENKINS_AGENT_NAME: "DockerNode"
-      JENKINS_AGENT_WORKDIR: "C://Users//subkrish2//jenkinsSlave"
-      JENKINS_OPTS: "-Dhudson.remoting.Launcher.pingIntervalSec=-1"
-    volumes:
-    - /var/run/docker.sock:/var/run/docker.sock  # Expose the docker daemon in the container
-    - ./jenkinsSlave:/var/jenkins_home/slave # Avoid mysql volume mount issue
-    depends_on:
-    - jenkins
-    networks:
-      testingNet:
-        ipv4_address: 172.18.1.6
-  zalenium:
-    container_name: zalenium
-    image: "dosel/zalenium"
-    hostname: zalenium
-    tty: true
-    volumes:
-    - /C/Users/subkrish2/temp/videos:/var/tmp/src/videos
-    - /var/run/docker.sock:/var/run/docker.sock
-    networks:
-      testingNet:
-        ipv4_address: 172.18.1.4
-    ports:
-    - 4444:4444
-    command: >
-      start --desiredContainers 2
-            --maxDockerSeleniumContainers 8
-            --screenWidth 800 --screenHeight 600
-            --timeZone "Europe/Berlin"
-            --videoRecordingEnabled true
-            --sauceLabsEnabled false
-            --browserStackEnabled false
-            --testingBotEnabled false
-            --cbtEnabled false
-            --startTunnel false
-    environment:
-    - HOST_UID
-    - HOST_GID
-    - SAUCE_USERNAME
-    - SAUCE_ACCESS_KEY
-    - BROWSER_STACK_USER
-    - BROWSER_STACK_KEY
-    - TESTINGBOT_KEY
-    - TESTINGBOT_SECRET
-    - CBT_USERNAME
-    - CBT_AUTHKEY
 networks:
   testingNet:
       ipam:

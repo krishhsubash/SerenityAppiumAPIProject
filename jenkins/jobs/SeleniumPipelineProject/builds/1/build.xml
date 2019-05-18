@@ -13,10 +13,10 @@
     </hudson.model.CauseAction>
   </actions>
   <queueId>1</queueId>
-  <timestamp>1558178887099</timestamp>
-  <startTime>1558178887196</startTime>
+  <timestamp>1558191261500</timestamp>
+  <startTime>1558191261642</startTime>
   <result>FAILURE</result>
-  <duration>477630</duration>
+  <duration>153592</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <completed>true</completed>
