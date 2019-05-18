@@ -15,7 +15,9 @@ pipeline {
 
         stage ('Docker compose run tests') {
             steps {
+             sh '''
                 docker-compose -f docker-compose1.yaml up
+                '''
             }
         }
     }
