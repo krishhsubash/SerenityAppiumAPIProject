@@ -35,7 +35,7 @@
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="Feature" value="22" />
-          <entry key="Jenkinsfile" value="1712" />
+          <entry key="Jenkinsfile" value="1727" />
           <entry key="dockerfile" value="45" />
           <entry key="feature" value="29" />
           <entry key="java" value="1338" />
@@ -50,7 +50,7 @@
         <counts>
           <entry key="Cucumber" value="51" />
           <entry key="JAVA" value="1338" />
-          <entry key="PLAIN_TEXT" value="2052" />
+          <entry key="PLAIN_TEXT" value="2067" />
           <entry key="Properties" value="302" />
           <entry key="XML" value="128" />
           <entry key="YAML" value="1226" />
@@ -102,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -275,7 +275,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559037565121" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559037911277" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -623,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="255">
+          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
         </state>
       </provider>
     </entry>
