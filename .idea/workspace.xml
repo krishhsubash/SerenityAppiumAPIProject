@@ -2,39 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d2fadb-12f7-4e87-b4cd-dd1b0c15bfe0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7_7_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose1.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/.java/fonts/1.8.0_212/fcinfo-1-5b624d6cfc01-Linux-4.9.125-linuxkit-en.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/.lastStarted" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/copy_reference_file.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/hudson.model.UpdateCenter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/hudson.plugins.emailext.ExtendedEmailPublisher.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/hudson.plugins.git.GitTool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/hudson.plugins.gradle.Gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/hudson.tasks.Ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/hudson.tasks.Maven.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/identity.key.enc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jenkins.CLI.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jenkins.install.InstallUtil.lastExecVersion" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jenkins.install.UpgradeWizard.state" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jenkins.model.JenkinsLocationConfiguration.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/jenkins.mvn.GlobalMavenConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jenkins.telemetry.Correlator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/log-index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastFailedBuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastStableBuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastSuccessfulBuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnstableBuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/lastUnsuccessfulBuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/legacyIds" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/lastStable" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/lastSuccessful" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/nextBuildNumber" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/logs/tasks/Download metadata.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/nodeMonitors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/org.jenkinsci.plugins.workflow.flow.FlowExecutionList.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/org.jenkinsci.plugins.docker.commons.tools.DockerTool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/org.jenkinsci.plugins.gitclient.JGitApacheTool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/org.jenkinsci.plugins.gitclient.JGitTool.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/META-INF/maven/org.jenkins-ci.ui/ace-editor/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/META-INF/maven/org.jenkins-ci.ui/ace-editor/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/WEB-INF/lib/ace-editor.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/jsmodules/ace-editor-119.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ace-editor/jsmodules/ace-editor-122.js" beforeDir="false" />
@@ -686,36 +693,53 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ant/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ant/META-INF/maven/org.jenkins-ci.plugins/ant/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ant/WEB-INF/lib/ant.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ant/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter/META-INF/maven/org.jenkins-ci.plugins/antisamy-markup-formatter/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter/META-INF/maven/org.jenkins-ci.plugins/antisamy-markup-formatter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter/WEB-INF/lib/antisamy-markup-formatter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter/WEB-INF/lib/owasp-html-sanitizer-r88.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/antisamy-markup-formatter/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/META-INF/maven/org.jenkins-ci.plugins/apache-httpcomponents-client-4-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/META-INF/maven/org.jenkins-ci.plugins/apache-httpcomponents-client-4-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/apache-httpcomponents-client-4-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/fluent-hc-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/httpasyncclient-4.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/httpasyncclient-cache-4.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/httpclient-cache-4.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/httpcore-nio-4.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/lib/httpmime-4.5.5.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/apache-httpcomponents-client-4-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/authentication-tokens.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/authentication-tokens/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/authentication-tokens/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/authentication-tokens/META-INF/maven/org.jenkins-ci.plugins/authentication-tokens/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/authentication-tokens/META-INF/maven/org.jenkins-ci.plugins/authentication-tokens/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/authentication-tokens/WEB-INF/lib/authentication-tokens.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/authentication-tokens/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/META-INF/maven/org.jenkins-ci.plugins/bouncycastle-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/META-INF/maven/org.jenkins-ci.plugins/bouncycastle-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/WEB-INF/lib/bcpkix-jdk15on-1.60.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/WEB-INF/lib/bcprov-jdk15on-1.60.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/WEB-INF/lib/bouncycastle-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/bouncycastle-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/META-INF/maven/org.jenkins-ci.plugins/branch-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/META-INF/maven/org.jenkins-ci.plugins/branch-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/WEB-INF/lib/branch-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/images/16x16/organization-folder.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/branch-api/images/24x24/organization-folder.png" beforeDir="false" />
@@ -726,6 +750,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/build-timeout/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/build-timeout/META-INF/maven/org.jenkins-ci.plugins/build-timeout/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/build-timeout/META-INF/maven/org.jenkins-ci.plugins/build-timeout/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/build-timeout/WEB-INF/lib/build-timeout.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/build-timeout/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/build-timeout/help-fixationTimeConfig.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/build-timeout/help-fixationTimeConfig_ja.html" beforeDir="false" />
@@ -736,6 +761,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/cloudbees-folder/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/cloudbees-folder/META-INF/maven/org.jenkins-ci.plugins/cloudbees-folder/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/cloudbees-folder/META-INF/maven/org.jenkins-ci.plugins/cloudbees-folder/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/cloudbees-folder/WEB-INF/lib/cloudbees-folder.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/cloudbees-folder/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/cloudbees-folder/images/16x16/folder-disabled.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/cloudbees-folder/images/16x16/folder.png" beforeDir="false" />
@@ -754,18 +780,23 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/command-launcher/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/command-launcher/META-INF/maven/org.jenkins-ci.plugins/command-launcher/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/command-launcher/META-INF/maven/org.jenkins-ci.plugins/command-launcher/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/command-launcher/WEB-INF/lib/command-launcher.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/command-launcher/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials-binding.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials-binding/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials-binding/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials-binding/META-INF/maven/org.jenkins-ci.plugins/credentials-binding/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials-binding/META-INF/maven/org.jenkins-ci.plugins/credentials-binding/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials-binding/WEB-INF/lib/credentials-binding.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials-binding/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/META-INF/maven/org.jenkins-ci.plugins/credentials/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/META-INF/maven/org.jenkins-ci.plugins/credentials/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/WEB-INF/lib/antlr4-runtime-4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/WEB-INF/lib/credentials.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/WEB-INF/lib/org.abego.treelayout.core-1.0.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/help/domain/description.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/credentials/help/domain/description_fr.html" beforeDir="false" />
@@ -825,12 +856,15 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/display-url-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/display-url-api/META-INF/maven/org.jenkins-ci.plugins/display-url-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/display-url-api/META-INF/maven/org.jenkins-ci.plugins/display-url-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/display-url-api/WEB-INF/lib/display-url-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/display-url-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/META-INF/maven/org.jenkins-ci.plugins/docker-commons/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/META-INF/maven/org.jenkins-ci.plugins/docker-commons/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/WEB-INF/lib/docker-commons.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/WEB-INF/lib/multiline-secrets-ui-1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/images/16x16/docker.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-commons/images/24x24/docker.png" beforeDir="false" />
@@ -841,18 +875,24 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-workflow/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-workflow/META-INF/maven/org.jenkins-ci.plugins/docker-workflow/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-workflow/META-INF/maven/org.jenkins-ci.plugins/docker-workflow/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-workflow/WEB-INF/lib/docker-workflow.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-workflow/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/docker-workflow/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/durable-task.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/durable-task/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/durable-task/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/durable-task/META-INF/maven/org.jenkins-ci.plugins/durable-task/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/durable-task/META-INF/maven/org.jenkins-ci.plugins/durable-task/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/durable-task/WEB-INF/lib/durable-task.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/durable-task/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/META-INF/maven/org.jenkins-ci.plugins/email-ext/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/META-INF/maven/org.jenkins-ci.plugins/email-ext/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/WEB-INF/lib/email-ext.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/WEB-INF/lib/jericho-html-3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/WEB-INF/lib/jsoup-1.8.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/help/globalConfig/allowUnregistered.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/email-ext/help/globalConfig/allowedDomains.html" beforeDir="false" />
@@ -948,12 +988,19 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/META-INF/maven/org.jenkins-ci.plugins/git-client/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/META-INF/maven/org.jenkins-ci.plugins/git-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/WEB-INF/lib/JavaEWAH-0.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/WEB-INF/lib/git-client.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/WEB-INF/lib/org.eclipse.jgit-4.5.5.201812240535-r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.http.apache-4.5.5.201812240535-r.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.http.server-4.5.5.201812240535-r.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-client/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/META-INF/maven/org.jenkins-ci.plugins/git-server/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/META-INF/maven/org.jenkins-ci.plugins/git-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/WEB-INF/lib/findbugs-annotations-1.3.9-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/WEB-INF/lib/git-server.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/images/16x16/git.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git-server/images/24x24/git.png" beforeDir="false" />
@@ -964,6 +1011,11 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/META-INF/maven/org.jenkins-ci.plugins/git/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/META-INF/maven/org.jenkins-ci.plugins/git/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/WEB-INF/lib/commons-net-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/WEB-INF/lib/git.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/WEB-INF/lib/httpclient-4.5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/WEB-INF/lib/httpcore-4.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/WEB-INF/lib/joda-time-2.9.5.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/extraRepo.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/git/gitPublisher.html" beforeDir="false" />
@@ -977,12 +1029,19 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/META-INF/maven/org.jenkins-ci.plugins/github-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/META-INF/maven/org.jenkins-ci.plugins/github-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/WEB-INF/lib/github-api-1.95.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/WEB-INF/lib/github-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/WEB-INF/lib/okhttp-2.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/WEB-INF/lib/okhttp-urlconnection-2.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/WEB-INF/lib/okio-1.6.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/META-INF/maven/org.jenkins-ci.plugins/github-branch-source/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/META-INF/maven/org.jenkins-ci.plugins/github-branch-source/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/WEB-INF/lib/github-branch-source.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/images/16x16/github-branch.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github-branch-source/images/16x16/github-logo.png" beforeDir="false" />
@@ -1005,6 +1064,16 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/META-INF/maven/com.coravy.hudson.plugins.github/github/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/META-INF/maven/com.coravy.hudson.plugins.github/github/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/commons-lang3-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/github.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/groovy-sandbox-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/jackson-core-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/jackson-databind-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/okhttp-2.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/okhttp-urlconnection-2.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/okio-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/lib/slf4j-jdk14-1.7.7.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/css/monitor.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/github/css/monitor.css.map" beforeDir="false" />
@@ -1014,6 +1083,8 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle/WEB-INF/lib/classes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle/WEB-INF/lib/dry-run-lib-0.1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle/help-GradleInstallation-home.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/gradle/help-GradleInstallation-name.html" beforeDir="false" />
@@ -1024,6 +1095,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/handlebars/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/handlebars/META-INF/maven/org.jenkins-ci.ui/handlebars/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/handlebars/META-INF/maven/org.jenkins-ci.ui/handlebars/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/handlebars/WEB-INF/lib/handlebars.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/handlebars/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/handlebars/jsmodules/handlebars3.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api.jpi" beforeDir="false" />
@@ -1031,18 +1103,28 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/META-INF/maven/org.jenkins-ci.plugins/jackson2-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/META-INF/maven/org.jenkins-ci.plugins/jackson2-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-jdk8-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-jsr310-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson-module-parameter-names-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/lib/jackson2-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jackson2-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jdk-tool.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jdk-tool/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jdk-tool/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jdk-tool/META-INF/maven/org.jenkins-ci.plugins/jdk-tool/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jdk-tool/META-INF/maven/org.jenkins-ci.plugins/jdk-tool/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jdk-tool/WEB-INF/lib/jdk-tool.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jdk-tool/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/META-INF/maven/org.jenkins-ci.ui/jquery-detached/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/META-INF/maven/org.jenkins-ci.ui/jquery-detached/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/WEB-INF/lib/jquery-detached.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/jsmodules/jquery2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jquery-detached/jsmodules/jqueryui1.js" beforeDir="false" />
@@ -1066,24 +1148,30 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jsch/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jsch/META-INF/maven/org.jenkins-ci.plugins/jsch/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jsch/META-INF/maven/org.jenkins-ci.plugins/jsch/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jsch/WEB-INF/lib/jsch-0.1.55.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/jsch/WEB-INF/lib/jsch.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/jsch/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/junit.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/junit/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/junit/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/junit/META-INF/maven/org.jenkins-ci.plugins/junit/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/junit/META-INF/maven/org.jenkins-ci.plugins/junit/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/junit/WEB-INF/lib/junit.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/junit/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ldap.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ldap/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ldap/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ldap/META-INF/maven/org.jenkins-ci.plugins/ldap/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ldap/META-INF/maven/org.jenkins-ci.plugins/ldap/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ldap/WEB-INF/lib/ldap.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ldap/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/META-INF/maven/org.6wind.jenkins/lockable-resources/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/META-INF/maven/org.6wind.jenkins/lockable-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/WEB-INF/lib/annotation-indexer-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/WEB-INF/lib/lockable-resources.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/lockable-resources/img/device-24x24.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mailer.jpi" beforeDir="false" />
@@ -1091,18 +1179,22 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mailer/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mailer/META-INF/maven/org.jenkins-ci.plugins/mailer/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mailer/META-INF/maven/org.jenkins-ci.plugins/mailer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/mailer/WEB-INF/lib/mailer.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mailer/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api/META-INF/maven/org.jenkins-ci.plugins/mapdb-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api/META-INF/maven/org.jenkins-ci.plugins/mapdb-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api/WEB-INF/lib/mapdb-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api/WEB-INF/lib/mapdb-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/mapdb-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/META-INF/maven/org.jenkins-ci.plugins/matrix-auth/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/META-INF/maven/org.jenkins-ci.plugins/matrix-auth/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/WEB-INF/lib/matrix-auth.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/images/16x16/select-all.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-auth/images/16x16/unselect-all.png" beforeDir="false" />
@@ -1113,6 +1205,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-project/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-project/META-INF/maven/org.jenkins-ci.plugins/matrix-project/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-project/META-INF/maven/org.jenkins-ci.plugins/matrix-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-project/WEB-INF/lib/matrix-project.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-project/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-project/help/matrix/axes.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/matrix-project/help/matrix/axes_de.html" beforeDir="false" />
@@ -1143,6 +1236,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/momentjs/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/momentjs/META-INF/maven/org.jenkins-ci.ui/momentjs/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/momentjs/META-INF/maven/org.jenkins-ci.ui/momentjs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/momentjs/WEB-INF/lib/momentjs.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/momentjs/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/momentjs/jsmodules/momentjs2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth.jpi" beforeDir="false" />
@@ -1150,54 +1244,75 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth/META-INF/maven/org.jenkins-ci.plugins/pam-auth/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth/META-INF/maven/org.jenkins-ci.plugins/pam-auth/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth/WEB-INF/lib/jna-4.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth/WEB-INF/lib/libpam4j-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth/WEB-INF/lib/pam-auth.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pam-auth/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-build-step.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-build-step/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-build-step/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-build-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-build-step/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-build-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-build-step/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-build-step/WEB-INF/lib/pipeline-build-step.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-build-step/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-github-lib.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-github-lib/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-github-lib/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-github-lib/META-INF/maven/org.jenkins-ci.plugins/pipeline-github-lib/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-github-lib/META-INF/maven/org.jenkins-ci.plugins/pipeline-github-lib/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-github-lib/WEB-INF/lib/pipeline-github-lib.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-github-lib/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-graph-analysis.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-graph-analysis/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-graph-analysis/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-graph-analysis/META-INF/maven/org.jenkins-ci.plugins/pipeline-graph-analysis/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-graph-analysis/META-INF/maven/org.jenkins-ci.plugins/pipeline-graph-analysis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-graph-analysis/WEB-INF/lib/pipeline-graph-analysis.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-graph-analysis/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-input-step.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-input-step/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-input-step/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-input-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-input-step/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-input-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-input-step/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-input-step/WEB-INF/lib/pipeline-input-step.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-input-step/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-milestone-step.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-milestone-step/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-milestone-step/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-milestone-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-milestone-step/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-milestone-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-milestone-step/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-milestone-step/WEB-INF/lib/pipeline-milestone-step.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-milestone-step/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/META-INF/maven/org.jenkinsci.plugins/pipeline-model-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/META-INF/maven/org.jenkinsci.plugins/pipeline-model-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/jackson-datatype-json-org-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/joda-time-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/json-20171018.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/json-schema-core-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/json-schema-validator-2.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/libphonenumber-5.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/mailapi-1.4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/pipeline-model-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/lib/rhino-1.7R4.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-declarative-agent.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-declarative-agent/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-declarative-agent/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-declarative-agent/META-INF/maven/org.jenkinsci.plugins/pipeline-model-declarative-agent/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-declarative-agent/META-INF/maven/org.jenkinsci.plugins/pipeline-model-declarative-agent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-declarative-agent/WEB-INF/lib/pipeline-model-declarative-agent.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-declarative-agent/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/META-INF/maven/org.jenkinsci.plugins/pipeline-model-definition/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/META-INF/maven/org.jenkinsci.plugins/pipeline-model-definition/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/WEB-INF/lib/annotation-indexer-1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/WEB-INF/lib/joda-time-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/WEB-INF/lib/pipeline-model-definition.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/images/24x24/restart-stage.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-definition/images/48x48/restart-stage.png" beforeDir="false" />
@@ -1206,30 +1321,38 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-extensions/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-extensions/META-INF/maven/org.jenkinsci.plugins/pipeline-model-extensions/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-extensions/META-INF/maven/org.jenkinsci.plugins/pipeline-model-extensions/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-extensions/WEB-INF/lib/pipeline-model-extensions.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-model-extensions/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/META-INF/maven/org.jenkins-ci.plugins.pipeline-stage-view/pipeline-rest-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/META-INF/maven/org.jenkins-ci.plugins.pipeline-stage-view/pipeline-rest-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/WEB-INF/lib/groovy-sandbox-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/WEB-INF/lib/pipeline-rest-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/WEB-INF/lib/symbol-annotation-1.6.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-rest-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-step.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-step/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-step/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-stage-step/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-step/META-INF/maven/org.jenkins-ci.plugins/pipeline-stage-step/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-step/WEB-INF/lib/pipeline-stage-step.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-step/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-tags-metadata.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-tags-metadata/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-tags-metadata/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-tags-metadata/META-INF/maven/org.jenkinsci.plugins/pipeline-stage-tags-metadata/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-tags-metadata/META-INF/maven/org.jenkinsci.plugins/pipeline-stage-tags-metadata/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-tags-metadata/WEB-INF/lib/pipeline-stage-tags-metadata.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-tags-metadata/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/META-INF/maven/org.jenkins-ci.plugins.pipeline-stage-view/pipeline-stage-view/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/META-INF/maven/org.jenkins-ci.plugins.pipeline-stage-view/pipeline-stage-view/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/WEB-INF/lib/pipeline-stage-view.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/WEB-INF/lib/symbol-annotation-1.6.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/pipeline-stage-view/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
@@ -1242,30 +1365,37 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/plain-credentials/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/plain-credentials/META-INF/maven/org.jenkins-ci.plugins/plain-credentials/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/plain-credentials/META-INF/maven/org.jenkins-ci.plugins/plain-credentials/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/plain-credentials/WEB-INF/lib/plain-credentials.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/plain-credentials/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/resource-disposer.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/resource-disposer/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/resource-disposer/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/resource-disposer/META-INF/maven/org.jenkins-ci.plugins/resource-disposer/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/resource-disposer/META-INF/maven/org.jenkins-ci.plugins/resource-disposer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/resource-disposer/WEB-INF/lib/resource-disposer.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/resource-disposer/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/scm-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/scm-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/scm-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/scm-api/META-INF/maven/org.jenkins-ci.plugins/scm-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/scm-api/META-INF/maven/org.jenkins-ci.plugins/scm-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/scm-api/WEB-INF/lib/scm-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/scm-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security/META-INF/maven/org.jenkins-ci.plugins/script-security/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security/META-INF/maven/org.jenkins-ci.plugins/script-security/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security/WEB-INF/lib/groovy-sandbox-1.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security/WEB-INF/lib/script-security.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/script-security/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/META-INF/maven/org.jenkins-ci.plugins/ssh-credentials/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/META-INF/maven/org.jenkins-ci.plugins/ssh-credentials/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/WEB-INF/lib/multiline-secrets-ui-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/WEB-INF/lib/ssh-credentials.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/images/16x16/ssh-key.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-credentials/images/24x24/ssh-key.png" beforeDir="false" />
@@ -1276,18 +1406,36 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-slaves/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-slaves/META-INF/maven/org.jenkins-ci.plugins/ssh-slaves/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-slaves/META-INF/maven/org.jenkins-ci.plugins/ssh-slaves/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-slaves/WEB-INF/lib/ssh-slaves.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ssh-slaves/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs/META-INF/maven/org.jenkins-ci.plugins/structs/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs/META-INF/maven/org.jenkins-ci.plugins/structs/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs/WEB-INF/lib/structs.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs/WEB-INF/lib/symbol-annotation-1.19.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/structs/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/META-INF/maven/org.jenkins-ci.plugins/subversion/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/META-INF/maven/org.jenkins-ci.plugins/subversion/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/antlr-runtime-3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jna-4.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jna-platform-4.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jsch.agentproxy.connector-factory-0.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jsch.agentproxy.core-0.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jsch.agentproxy.pageant-0.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jsch.agentproxy.sshagent-0.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jsch.agentproxy.svnkit-trilead-ssh2-0.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jsch.agentproxy.usocket-jna-0.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/jsch.agentproxy.usocket-nc-0.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/platform-3.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/sequence-library-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/sqljet-1.1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/subversion.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/lib/svnkit-1.9.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/pass-phrase.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/subversion/pass-phrase_de.html" beforeDir="false" />
@@ -1302,42 +1450,60 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/timestamper/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/timestamper/META-INF/maven/org.jenkins-ci.plugins/timestamper/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/timestamper/META-INF/maven/org.jenkins-ci.plugins/timestamper/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/timestamper/WEB-INF/lib/timestamper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/timestamper/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/META-INF/maven/org.jenkins-ci.plugins/token-macro/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/META-INF/maven/org.jenkins-ci.plugins/token-macro/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/WEB-INF/lib/accessors-smart-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/WEB-INF/lib/json-path-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/WEB-INF/lib/json-smart-2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/WEB-INF/lib/parboiled-core-1.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/WEB-INF/lib/parboiled-java-1.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/WEB-INF/lib/token-macro.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/token-macro/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-aggregator.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-aggregator/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-aggregator/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-aggregator/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-aggregator/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-aggregator/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-aggregator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-aggregator/WEB-INF/lib/workflow-aggregator.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-aggregator/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-api/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-api/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-api/WEB-INF/lib/workflow-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-basic-steps.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-basic-steps/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-basic-steps/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-basic-steps/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-basic-steps/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-basic-steps/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-basic-steps/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-basic-steps/WEB-INF/lib/workflow-basic-steps.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-basic-steps/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-cps-global-lib/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-cps-global-lib/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/WEB-INF/lib/commons-lang3-3.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/WEB-INF/lib/ivy-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/WEB-INF/lib/jboss-marshalling-1.4.12.jenkins-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/WEB-INF/lib/jboss-marshalling-river-1.4.12.jenkins-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/WEB-INF/lib/workflow-cps-global-lib.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps-global-lib/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-cps/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-cps/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/WEB-INF/lib/diff4j-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/WEB-INF/lib/groovy-cps-1.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/WEB-INF/lib/workflow-cps.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/images/24x24/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-cps/images/24x24/pause.png" beforeDir="false" />
@@ -1347,12 +1513,14 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-durable-task-step/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-durable-task-step/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-durable-task-step/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-durable-task-step/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-durable-task-step/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-durable-task-step/WEB-INF/lib/workflow-durable-task-step.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-durable-task-step/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-job/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-job/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job/WEB-INF/lib/workflow-job.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-job/images/48x48/pipelinejob.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch.jpi" beforeDir="false" />
@@ -1360,6 +1528,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-multibranch/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-multibranch/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch/WEB-INF/lib/workflow-multibranch.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch/images/16x16/pipelinemultibranchproject.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-multibranch/images/24x24/pipelinemultibranchproject.png" beforeDir="false" />
@@ -1370,18 +1539,23 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-scm-step/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-scm-step/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-scm-step/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-scm-step/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-scm-step/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-scm-step/WEB-INF/lib/workflow-scm-step.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-scm-step/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-step-api.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-step-api/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-step-api/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-step-api/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-step-api/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-step-api/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-step-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-step-api/WEB-INF/lib/workflow-step-api.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-step-api/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support.jpi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/.timestamp2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-support/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/META-INF/maven/org.jenkins-ci.plugins.workflow/workflow-support/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/WEB-INF/lib/jboss-marshalling-2.0.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/WEB-INF/lib/jboss-marshalling-river-2.0.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/WEB-INF/lib/workflow-support.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/workflow-support/images/32x32/terminal.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup.jpi" beforeDir="false" />
@@ -1389,6 +1563,10 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/META-INF/maven/org.jenkins-ci.plugins/ws-cleanup/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/META-INF/maven/org.jenkins-ci.plugins/ws-cleanup/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/WEB-INF/lib/annotation-indexer-1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/WEB-INF/lib/jboss-marshalling-1.4.9.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/WEB-INF/lib/jboss-marshalling-river-1.4.9.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/WEB-INF/lib/ws-cleanup.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/WEB-INF/licenses.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/help/cleanupMatrixParent.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/help/cleanupParameter.html" beforeDir="false" />
@@ -1401,7 +1579,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/help/patterns.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/plugins/ws-cleanup/help/patterns_ja.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/queue.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkins/queue.xml.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/secret.key" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/secret.key.not-so-secret" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/secrets/filepath-filters.d/30-default.conf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/secrets/hudson.console.ConsoleNote.MAC" beforeDir="false" />
@@ -1418,6 +1596,7 @@
       <change beforePath="$PROJECT_DIR$/jenkins/updates/hudson.tasks.Maven.MavenInstaller" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/updates/hudson.tools.JDKInstaller" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/userContent/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/users/admin_378707131427301049/config.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/users/users.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/.timestamp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/ColorFormatter.class" beforeDir="false" />
@@ -1468,6 +1647,141 @@
       <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/jboss-web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/jenkins-cli.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/jonas-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/access-modifier-annotation-1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/acegi-security-1.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/activation-1.1.1-hudson-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/akuma-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/annotation-indexer-1.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/annotations-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/ant-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/ant-launcher-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/antlr-2.7.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/args4j-2.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/asm-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/asm-analysis-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/asm-commons-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/asm-tree-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/asm-util-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/asm5-5.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/asm6-6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/bootstrap-1.3.2-core-assets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/bridge-method-annotation-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/bytecode-compatibility-transformer-2.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/cli-2.164.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-collections-3.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-compress-1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-digester-2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-discovery-0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-fileupload-1.3.1-jenkins-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-httpclient-3.1-jenkins-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-jelly-1.1-jenkins-20120928.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-jelly-tags-define-1.0.1-hudson-20071021.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-jelly-tags-fmt-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-jelly-tags-xml-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-jexl-1.1-jenkins-20111212.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/constant-pool-scanner-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/crypto-util-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/dom4j-1.6.1-jenkins-4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/eddsa-0.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/embedded_su4j-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/ezmorph-1.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/groovy-all-2.4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/guava-11.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/guice-4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/handlebars-1.1.1-core-assets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/icon-set-1.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/instance-identity-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/j-interop-2.0.6-kohsuke-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/j-interopdeps-2.0.6-kohsuke-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jansi-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jaxen-1.1-beta-11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jbcrypt-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jcifs-1.3.17-kohsuke-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jcip-annotations-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jcommon-1.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jenkins-core-2.164.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jenkins-stapler-support-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jffi-1.2.16-native.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jffi-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jfreechart-1.0.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jline-2.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jmdns-3.4.0-jenkins-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jna-4.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jna-posix-1.0.3-jenkins-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jnr-constants-0.9.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jnr-ffi-2.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jnr-posix-3.0.45.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jnr-x86asm-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jquery-detached-1.2.1-core-assets.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jquery-detached-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/json-lib-2.4-jenkins-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jsr305-3.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jtidy-4aug2000r7-dev-hudson-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/jzlib-1.1.3-kohsuke-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/kxml2-2.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/launchd-slave-installer-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/libpam4j-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/libzfs-0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/localizer-1.24.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/mail-1.4.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/memory-monitor-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/oro-2.0.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/relaxngDatatype-20020414.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/remoting-3.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/robust-http-client-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/self-signed-cert-generator-1.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/sezpoz-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/slave-installer-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/slf4j-jdk14-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-aop-2.5.6.SEC03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-beans-2.5.6.SEC03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-context-2.5.6.SEC03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-context-support-2.5.6.SEC03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-core-2.5.6.SEC03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-dao-1.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-jdbc-1.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-web-2.5.6.SEC03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/spring-webmvc-2.5.6.SEC03.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/ssh-cli-auth-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/sshd-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/sshd-core-1.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stapler-1.256.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stapler-adjunct-codemirror-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stapler-adjunct-timeline-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stapler-adjunct-zeroclipboard-1.3.5-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stapler-groovy-1.256.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stapler-jelly-1.256.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stapler-jrebel-1.256.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stax-api-1.0-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/symbol-annotation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/systemd-slave-installer-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/task-reactor-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/tiger-types-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/trilead-putty-extension-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/trilead-ssh2-build-217-jenkins-14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/txw2-20110809.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/upstart-slave-installer-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/version-number-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/windows-package-checker-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/windows-slave-installer-1.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/winp-1.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/wstx-asl-3.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/xpp3-1.1.4c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/lib/xstream-1.4.7-jenkins-1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/security/AbstractPasswordBasedSecurityRealm.groovy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/security/SecurityFilters.groovy" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/WEB-INF/sun-web.xml" beforeDir="false" />
@@ -2643,6 +2957,11 @@
       <change beforePath="$PROJECT_DIR$/jenkins/war/scripts/yui/yahoo/yahoo-debug.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/scripts/yui/yahoo/yahoo-min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins/war/winstone.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsMaster/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsMaster/id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkinsSlave/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -2655,40 +2974,44 @@
     <session id="-1751377582">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="Feature" value="22" />
-          <entry key="Jenkinsfile" value="1497" />
+          <entry key="Jenkinsfile" value="1675" />
           <entry key="dockerfile" value="45" />
           <entry key="feature" value="29" />
           <entry key="java" value="1338" />
           <entry key="jenkinsFile" value="262" />
           <entry key="properties" value="302" />
           <entry key="txt" value="28" />
-          <entry key="xml" value="127" />
-          <entry key="yaml" value="1032" />
+          <entry key="xml" value="128" />
+          <entry key="yaml" value="1226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Cucumber" value="51" />
           <entry key="JAVA" value="1338" />
-          <entry key="PLAIN_TEXT" value="1837" />
+          <entry key="PLAIN_TEXT" value="2015" />
           <entry key="Properties" value="302" />
-          <entry key="XML" value="127" />
-          <entry key="YAML" value="1032" />
+          <entry key="XML" value="128" />
+          <entry key="YAML" value="1226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -2696,28 +3019,29 @@
           <entry key="DockerFile" value="1" />
           <entry key="Dockerfile" value="2" />
           <entry key="Feature" value="1" />
-          <entry key="Jenkinsfile" value="1" />
+          <entry key="Jenkinsfile" value="2" />
           <entry key="class" value="6" />
+          <entry key="dev" value="1" />
           <entry key="dockerfile" value="1" />
-          <entry key="feature" value="5" />
-          <entry key="java" value="32" />
+          <entry key="feature" value="6" />
+          <entry key="java" value="35" />
           <entry key="jenkinsFile" value="1" />
           <entry key="log" value="1" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="5" />
           <entry key="vm" value="1" />
-          <entry key="xml" value="29" />
-          <entry key="yaml" value="9" />
+          <entry key="xml" value="30" />
+          <entry key="yaml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="Cucumber" value="6" />
-          <entry key="JAVA" value="32" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Properties" value="4" />
-          <entry key="XML" value="29" />
-          <entry key="YAML" value="9" />
+          <entry key="Cucumber" value="7" />
+          <entry key="JAVA" value="35" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Properties" value="5" />
+          <entry key="XML" value="30" />
+          <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -2727,49 +3051,85 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose1.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="517">
+              <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jenkinsMaster/dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jenkinsSlave/dockerfile">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="272">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose2.yaml">
+        <entry file="file://$PROJECT_DIR$/serenity.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="459">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/Login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-composeCypress.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Pages/DatabaseConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="179" selection-start-line="179" selection-end-line="179" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/MybrowsecapEnhancer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -2823,7 +3183,6 @@
         <option value="$PROJECT_DIR$/src/test/java/serenity/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/serenity/pages/MyZaleniumCapabilityEnhancer.java" />
         <option value="$PROJECT_DIR$/src/test/java/serenity/pages/MybrowsecapEnhancer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/scripts/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/scripts/serenity.properties" />
         <option value="$PROJECT_DIR$/serenity.properties" />
@@ -2832,13 +3191,15 @@
         <option value="$PROJECT_DIR$/docker/docker-compose.yaml" />
         <option value="$PROJECT_DIR$/jenkins/config.xml" />
         <option value="$PROJECT_DIR$/jenkins/hudson.plugins.build_timeout.operations.BuildStepOperation.xml" />
-        <option value="$PROJECT_DIR$/docker-compose1.yaml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
         <option value="$PROJECT_DIR$/dockerfile" />
         <option value="$PROJECT_DIR$/jenkinsSlave/dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose2.yaml" />
         <option value="$PROJECT_DIR$/jenkinsMaster/dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yaml" />
+        <option value="$PROJECT_DIR$/.travis.yaml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-compose1.yaml" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
@@ -2857,6 +3218,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2864,81 +3226,14 @@
               <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="SeleniumPipelineProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="SeleniumPipelineProject" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="SeleniumPipelineProject" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="war" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="SeleniumPipelineProject" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="war" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
-              <item name="SeleniumPipelineProject" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkins" type="462c0819:PsiDirectoryNode" />
-              <item name="war" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="detached-plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkinsMaster" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serenity" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-              <item name="jenkinsSlave" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558238747276" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559036075653" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -3021,7 +3316,7 @@
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27314112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29135054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -3080,28 +3375,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/DictionaryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber-serenity-runner.vm" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/consult_dictionary/LookUpFeature.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/serenity/steps/DefinitionSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -3173,13 +3446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -3209,10 +3475,48 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/MybrowsecapEnhancer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/DefinitionTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkins/credentials.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.CLI.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/logs/slaves/DockerNode/slave.log" />
+    <entry file="file://$PROJECT_DIR$/jenkins/users/admin_5716194804068590019/config.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/users/users.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/nodes/DockerNode/config.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/build.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/github-plugin-configuration.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.model.UpdateCenter.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.build_timeout.operations.BuildStepOperation.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.emailext.ExtendedEmailPublisher.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.git.GitSCM.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.timestamper.TimestamperConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/scriptApproval.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/queue.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.mvn.GlobalMavenConfig.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.model.JenkinsLocationConfiguration.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/config.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml" />
+    <entry file="file://$PROJECT_DIR$/jenkinsMaster/dockerfile" />
+    <entry file="file://$PROJECT_DIR$/jenkinsSlave/dockerfile" />
+    <entry file="file://$PROJECT_DIR$/.travis.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile.dev">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -3223,83 +3527,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/DefinitionTestSuite.java">
+    <entry file="file://$PROJECT_DIR$/docker-composeCypress.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/DatabaseConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="234" column="12" selection-start-line="234" selection-start-column="12" selection-end-line="234" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/credentials.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.CLI.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/logs/slaves/DockerNode/slave.log" />
-    <entry file="file://$PROJECT_DIR$/jenkins/users/admin_5716194804068590019/config.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/users/users.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/nodes/DockerNode/config.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/builds/1/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/github-plugin-configuration.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/hudson.model.UpdateCenter.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.build_timeout.operations.BuildStepOperation.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.emailext.ExtendedEmailPublisher.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.git.GitSCM.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/hudson.plugins.timestamper.TimestamperConfig.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/scriptApproval.xml" />
-    <entry file="file://$PROJECT_DIR$/jenkins/queue.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.mvn.GlobalMavenConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/jenkins.model.JenkinsLocationConfiguration.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkins/jobs/SeleniumPipelineProject/config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jenkinsMaster/dockerfile">
+    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jenkinsSlave/dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/serenity/pages/MybrowsecapEnhancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose2.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -3308,24 +3558,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose1.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="517">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose1.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="59" column="29" lean-forward="true" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>

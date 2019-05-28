@@ -6,7 +6,7 @@ services:
     hostname: zalenium
     tty: true
     volumes:
-    - /C/Users/subkrish2/temp/videos:/var/tmp/src/videos
+    - //C/Users/subkrish2/temp/videos:/var/tmp/src/videos
     - /var/run/docker.sock:/var/run/docker.sock
     networks:
       testingNet:
@@ -40,7 +40,7 @@ services:
     image: "maven"
     volumes:
     - ./:/var/tmp
-    - C:/Users/subkrish2/.m2:/root/.m2
+    - //C/Users/subkrish2/.m2:/root/.m2
     working_dir: /var/tmp
     command:
     - sh
