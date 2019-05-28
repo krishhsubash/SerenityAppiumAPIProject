@@ -6,12 +6,12 @@ pipeline {
                 sh 'mvn clean'
                 }
             }
-           stage ('Clean') {
+           stage ('Compile') {
             steps {
                 sh 'mvn compile'
                 }
            }
-           stage ('Clean') {
+           stage ('Run docker-compose test run') {
            steps {
                            sh 'docker-compose -f docker-compose1.yaml up'
                            }
