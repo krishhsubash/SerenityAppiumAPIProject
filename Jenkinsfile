@@ -1,6 +1,7 @@
 pipeline {
     agent any
     node(label: 'master') {
+    stages {
            stage ('Clean') {
                 steps {
                 sh 'mvn clean'
@@ -16,5 +17,6 @@ pipeline {
                       sh 'docker-compose -f docker-compose1.yaml up'
                  }
            }
+    }
     }
 }
