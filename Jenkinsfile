@@ -3,18 +3,18 @@ pipeline {
     stages {
            stage ('Clean') {
                 steps {
-                bat "mvn clean"
+                sh 'mvn clean'
                 }
             }
            stage ('Compile') {
             steps {
-                bat "mvn compile"
+                sh 'mvn compile'
                 }
            }
            stage ('Run docker-compose test run') {
            steps {
-                           bat "docker-compose -f docker-compose1.yaml up"
-                           }
+                      sh 'docker-compose -f docker-compose1.yaml up'
+                 }
            }
     }
 }
