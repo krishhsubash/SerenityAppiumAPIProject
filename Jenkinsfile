@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    stages {
+    node(label: 'master') {
            stage ('Clean') {
                 steps {
                 sh 'mvn clean'
