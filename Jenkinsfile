@@ -1,9 +1,20 @@
 pipeline {
     agent any
+    tools {
+            maven 'maven'
+          }
     stages {
-           stage ('Run docker-compose test run') {
+            stage ('Initialize') {
+                steps {
+                    sh '''
+                        echo "PATH = ${PATH}"
+                        echo "M2_HOME = ${M2_HOME}"
+                    '''
+                }
+                }
+           stage ('Run Maven Tests') {
            steps {
-                      bat "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker-compose -f docker-compose1.yaml up"
+                      sh 'mvn clean test verify'
                  }
            }
     }
