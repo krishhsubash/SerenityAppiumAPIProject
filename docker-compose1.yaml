@@ -39,7 +39,7 @@ services:
     container_name: maven
     image: "maven"
     volumes:
-    - /var/tmp:/var/tmp
+    - ./:/var/tmp
     working_dir: /var/tmp
     command:
     - sh
