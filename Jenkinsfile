@@ -16,12 +16,8 @@ pipeline {
            steps {
                       sh 'mvn clean'
                       sh '/usr/local/bin/docker-compose -f docker-compose1.yaml up'
+                      sh 'mvn test verify'
                  }
-           }
-           stage ('Run Tests') {
-               steps {
-                           sh 'mvn test verify'
-                     }
            }
            stage('Zalenium Down') {
                 steps {
