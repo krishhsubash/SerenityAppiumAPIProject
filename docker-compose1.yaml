@@ -35,16 +35,6 @@ services:
     - TESTINGBOT_SECRET
     - CBT_USERNAME
     - CBT_AUTHKEY
-  mvnSetup:
-    container_name: maven
-    image: "maven"
-    volumes:
-    - ./:/var/tmp
-    working_dir: /var/tmp
-    command:
-    - sh
-    - '-c'
-    - "mvn clean test verify"
 networks:
   testingNet:
     ipam:
