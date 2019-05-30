@@ -36,4 +36,6 @@ services:
     - CBT_USERNAME
     - CBT_AUTHKEY
 networks:
-  jenkins_testingNet
+  default:
+    external:
+      name: jenkins_testingNet
