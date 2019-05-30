@@ -12,6 +12,7 @@ pipeline {
                     '''
                 }
                 }
+    stage('Start Zalenium and Run Tests')   {
     parallel {
            stage ('Start Zalenium') {
                  steps {
@@ -21,6 +22,7 @@ pipeline {
            }
            stage('Run Tests') {
                    sh 'mvn test verify'
+           }
            }
            }
            stage('Zalenium Down') {

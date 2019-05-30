@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d2fadb-12f7-4e87-b4cd-dd1b0c15bfe0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose1.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose1.yaml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +35,7 @@
         <counts>
           <entry key="Dockerfile" value="5" />
           <entry key="Feature" value="22" />
-          <entry key="Jenkinsfile" value="2109" />
+          <entry key="Jenkinsfile" value="2150" />
           <entry key="dockerfile" value="45" />
           <entry key="feature" value="29" />
           <entry key="java" value="1338" />
@@ -52,7 +50,7 @@
         <counts>
           <entry key="Cucumber" value="51" />
           <entry key="JAVA" value="1338" />
-          <entry key="PLAIN_TEXT" value="2449" />
+          <entry key="PLAIN_TEXT" value="2490" />
           <entry key="Properties" value="302" />
           <entry key="XML" value="128" />
           <entry key="YAML" value="1238" />
@@ -104,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+            <state relative-caret-position="442">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -619,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+        <state relative-caret-position="442">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>
