@@ -9,8 +9,8 @@ services:
     - //C/Users/subkrish2/temp/videos:/var/tmp/src/videos
     - /var/run/docker.sock:/var/run/docker.sock
     networks:
-      testingNet:
-        ipv4_address: 172.18.3.4
+      jenkins_testingNet:
+        ipv4_address: 172.18.1.4
     ports:
     - 4444:4444
     command: >
@@ -35,9 +35,3 @@ services:
     - TESTINGBOT_SECRET
     - CBT_USERNAME
     - CBT_AUTHKEY
-networks:
-  testingNet:
-    ipam:
-      driver: default
-      config:
-      - subnet: 172.18.3.0/24
