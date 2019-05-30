@@ -10,7 +10,7 @@ services:
     - /var/run/docker.sock:/var/run/docker.sock
     networks:
       testingNet:
-        ipv4_address: 172.18.1.4
+        ipv4_address: 172.18.3.4
     ports:
     - 4444:4444
     command: >
@@ -40,4 +40,4 @@ networks:
     ipam:
       driver: default
       config:
-      - subnet: 172.18.1.0/24
+      - subnet: 172.18.3.0/24

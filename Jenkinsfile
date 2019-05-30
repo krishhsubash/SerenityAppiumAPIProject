@@ -12,17 +12,21 @@ pipeline {
                     '''
                 }
                 }
+    parallel {
            stage ('Start Zalenium') {
-           steps {
+                 steps {
                       sh 'mvn clean'
-                      sh '/usr/local/bin/docker-compose -f docker-compose1.yaml up'
-                      sh 'mvn test verify'
+                      sh '/usr/local/bin/docker-compose -f docker-compose1.yaml up > text.txt'
                  }
+           }
+           stage('Run Tests') {
+                   sh 'mvn test verify'
+           }
            }
            stage('Zalenium Down') {
                 steps {
                     sh '/usr/local/bin/docker-compose -f docker-compose1.yaml down'
                 }
-           }
+            }
     }
 }
