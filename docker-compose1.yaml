@@ -35,3 +35,5 @@ services:
     - TESTINGBOT_SECRET
     - CBT_USERNAME
     - CBT_AUTHKEY
+networks:
+  jenkins_testingNet
