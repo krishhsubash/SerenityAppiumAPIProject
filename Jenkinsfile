@@ -12,12 +12,11 @@ pipeline {
                     '''
                 }
                 }
-            stage('Start Zalenium and Run Tests')   {
-                            stage('Run Tests') {
-                                steps {
+            stage('Run Tests') {
+                steps {
                                            sh 'mvn clean test verify'
-                                       }
-                             }
+                }
+            }
 
            }
     }
