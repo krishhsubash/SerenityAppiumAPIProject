@@ -18,15 +18,26 @@ public class LoginPageSteps {
         loginPageSerenitySteps.verifyUserRedirectedLoginPage();
     }
 
-    @When("^I enter \"([^\"]*)\" in login page successfully$")
+    @When("^I enter \"([^\"]*)\" as username in login page successfully$")
     public void iEnterInLoginPageSuccessfully(String Data) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         loginPageSerenitySteps.enterTextLoginPage(Data);
+    }
+    @When("^I enter \"([^\"]*)\" as password in login page successfully$")
+    public void iEnterpasswordInLoginPageSuccessfully(String Data) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        loginPageSerenitySteps.enterPasswordLoginPage(Data);
     }
 
     @And("^I click on Login button in Login page successfully$")
     public void iClickOnLoginButtonInLoginPageSuccessfully() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         loginPageSerenitySteps.clickLoginButton();
+    }
+
+    @When("^I click on Continue Button in login page successfully$")
+    public void iClickOnContinueButtonInLoginPageSuccessfully() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        loginPageSerenitySteps.clickContinueButton();
     }
 }

@@ -34,4 +34,23 @@ public class HomePageSteps {
         // Write code here that turns the phrase above into concrete actions
         homePageSerenitySteps.closeBrowser();
     }
+
+    @Then("^I verify user is logged in successfully$")
+    public void iVerifyUserIsLoggedInSuccessfully() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        homePageSerenitySteps.verifyLoggedUserRedirected();
+    }
+
+    @When("^I click on cart icon in Home Page$")
+    public void iClickOnCartIconInHomePage() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        homePageSerenitySteps.clickCartIcon();
+    }
+
+
+    @When("^I enter the product as \"([^\"]*)\" in home page$")
+    public void iEnterTheProductAsInHomePage(String product) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+       homePageSerenitySteps.enterproduct(product);
+    }
 }

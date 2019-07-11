@@ -1,0 +1,9 @@
+<Environments>
+    <Environment name="QA">
+        <!--Url-->
+        <Parameter key="testEnv" value="QA"/>
+        <Parameter key="TimeOut" value="5"/>
+        <Parameter key="BaseURL" value="https://www.amazon.in"/>
+        <Parameter key="BaseURI" value="https://test.salesforce.com"/>
+    </Environment>
+</Environments>

@@ -1,0 +1,177 @@
+
+# Details of a user
+---
+
+address:
+  - ID:
+      username: testLocator
+      password: pass
+  - locatorname:
+      home: test1
+      search: test2
+homePage:
+  - ID:
+      username: username
+  - name:
+      username: username
+      password: pass
+  - xpath:
+      homePageLoginLink: "//a/span[text()='Hello, Sign in']"
+      username: "//input[@type='email']"
+      continue: "//input[@id='continue']"
+      password: "//input[@type='password']"
+      loginButton: "//input[@id='signInSubmit']"
+      userLoggedIn: "//div[@id='nav-tools']/a/span[contains(text(),'Hello')]"
+      cartIcon: "//span[@id='nav-cart-count']"
+      searchBox: "//input[@id='twotabsearchtextbox']"
+      searchIcon: "//input[@type='submit' and @value='Go']"
+  - cssSelector:
+      username: username
+      password: pass
+  - linkText:
+      username: username
+      password: pass
+  - className:
+      username: username
+      password: pass
+  - tagName:
+      username: username
+      password: pass
+loginPage:
+  - ID:
+      username: username
+      password: pass
+  - name:
+      username: username
+      password: pass
+  - xpath:
+      username: username
+      password: pass
+  - cssSelector:
+      username: username
+      password: pass
+  - linkText:
+      username: username
+      password: pass
+  - className:
+      username: username
+      password: pass
+  - tagName:
+      username: username
+      password: pass
+productListPage:
+  - ID:
+      username: username
+      password: pass
+  - name:
+      username: username
+      password: pass
+  - xpath:
+      searchResults: "//span[@class='a-list-item']/a/span[text()='Toys & Games']"
+      paginationSearch: "//ul[@class='a-pagination']/li/a[text()='Next']"
+      productSelected: "//span[contains(text(),'Metro')]"
+      addToCart: "//input[@id='add-to-cart-button']"
+      quantitySelected: "//select[@name='quantity']"
+      cartButton: "//span/a[contains(text(),'Cart')]"
+      proceedToBuy: "//span/a[contains(text(),'Proceed to Buy')]"
+  - cssSelector:
+      username: username
+      password: pass
+  - linkText:
+      username: username
+      password: pass
+  - className:
+      username: username
+      password: pass
+  - tagName:
+      username: username
+      password: pass
+productPage:
+  - ID:
+      username: username
+      password: pass
+  - name:
+      username: username
+      password: pass
+  - xpath:
+      username: username
+      password: pass
+  - cssSelector:
+      username: username
+      password: pass
+  - linkText:
+      username: username
+      password: pass
+  - className:
+      username: username
+      password: pass
+  - tagName:
+      username: username
+      password: pass
+cartPage:
+  - ID:
+      username: username
+      password: pass
+  - name:
+      username: username
+      password: pass
+  - xpath:
+      cartSubTotal: "//span[@id='sc-subtotal-label-activecart']"
+      cartDeleteHyperlink: "//input[@value='Delete']"
+      checkoutPage: "//h1[text()='Select a delivery address']"
+  - cssSelector:
+      username: username
+      password: pass
+  - linkText:
+      username: username
+      password: pass
+  - className:
+      username: username
+      password: pass
+  - tagName:
+      username: username
+      password: pass
+basketPage:
+  - ID:
+      username: username
+      password: pass
+  - name:
+      username: username
+      password: pass
+  - xpath:
+      username: username
+      password: pass
+  - cssSelector:
+      username: username
+      password: pass
+  - linkText:
+      username: username
+      password: pass
+  - className:
+      username: username
+      password: pass
+  - tagName:
+      username: username
+      password: pass
+checkoutPage:
+  - ID:
+      username: username
+      password: pass
+  - name:
+      username: username
+      password: pass
+  - xpath:
+      username: username
+      password: pass
+  - cssSelector:
+      username: username
+      password: pass
+  - linkText:
+      username: username
+      password: pass
+  - className:
+      username: username
+      password: pass
+  - tagName:
+      username: username
+      password: pass

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Basket Functionality" skipped="0" tests="2" time="278.72" timestamp="2019-06-14 02:47:53"><testcase name="verify User is redirected to basket page on click of cart icon"/><testcase name="Verify user can select the quantity of the product added"/></testsuite>

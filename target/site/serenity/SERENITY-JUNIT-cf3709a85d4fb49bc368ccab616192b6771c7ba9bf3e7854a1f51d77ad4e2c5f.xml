@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Checkout Functionality" skipped="0" tests="2" time="341.5" timestamp="2019-06-14 02:47:53"><testcase name="Verify Checkout functionality for the product added"/><testcase name="verify user is able to select the address in checkout page"/></testsuite>

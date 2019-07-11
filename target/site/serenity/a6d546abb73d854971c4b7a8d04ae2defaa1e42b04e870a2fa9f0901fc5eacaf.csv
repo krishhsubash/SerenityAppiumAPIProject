@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Basket Functionality","verify User is redirected to basket page on click of cart icon","SUCCESS","2019-06-14T14:47:53.869+05:30[Asia/Calcutta]","0.0","115.08"
+"Basket Functionality","Verify user can select the quantity of the product added","SUCCESS","2019-06-14T14:49:57.459+05:30[Asia/Calcutta]","0.0","163.64"

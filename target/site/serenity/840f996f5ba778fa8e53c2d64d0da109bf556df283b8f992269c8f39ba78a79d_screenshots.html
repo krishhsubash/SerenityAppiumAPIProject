@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Serenity Cucumber With Rest Assured & Appium</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f3dd1ca0e26a6e5211d0e14a1fb21b51966a715aa390624cdb6a2fba72b98369.html">Cart Functionality</a></span>
+                > <span class="truncate-60"><a
+                    href="840f996f5ba778fa8e53c2d64d0da109bf556df283b8f992269c8f39ba78a79d.html">Cart functionality </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-06-2019 14:47</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Cart Functionality </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Cart functionality
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="76f7b0110fb6a9c47deef5e6d59f4626ba61e22a6c9cb9f5f911abca9c8067fd.png" title=" Given I launch the test URL successfully" width="1034"/>
+                <img src="76f7b0110fb6a9c47deef5e6d59f4626ba61e22a6c9cb9f5f911abca9c8067fd.png" title=" Launch test URL" width="1034"/>
+                <img src="76f7b0110fb6a9c47deef5e6d59f4626ba61e22a6c9cb9f5f911abca9c8067fd.png" title=" Given I launch the test URL successfully (completed)" width="1034"/>
+                <img src="76f7b0110fb6a9c47deef5e6d59f4626ba61e22a6c9cb9f5f911abca9c8067fd.png" title=" Then I verify user is redirected to the website successfully" width="1034"/>
+                <img src="76f7b0110fb6a9c47deef5e6d59f4626ba61e22a6c9cb9f5f911abca9c8067fd.png" title=" Verify user redirected" width="1034"/>
+                <img src="76f7b0110fb6a9c47deef5e6d59f4626ba61e22a6c9cb9f5f911abca9c8067fd.png" title=" Then I verify user is redirected to the website successfully (completed)" width="1034"/>
+                <img src="b228a43f0e443ead946dc75a8d01725fd558dbf858dc8a1bd76b573656315545.png" title=" When I click on &quot;Login&quot; button in Home Page" width="1034"/>
+                <img src="b228a43f0e443ead946dc75a8d01725fd558dbf858dc8a1bd76b573656315545.png" title=" Click button: Login" width="1034"/>
+                <img src="b228a43f0e443ead946dc75a8d01725fd558dbf858dc8a1bd76b573656315545.png" title=" When I click on &quot;Login&quot; button in Home Page (completed)" width="1034"/>
+                <img src="b228a43f0e443ead946dc75a8d01725fd558dbf858dc8a1bd76b573656315545.png" title=" Then I verify user is redirected to Login page successfully" width="1034"/>
+                <img src="b228a43f0e443ead946dc75a8d01725fd558dbf858dc8a1bd76b573656315545.png" title=" Verify user redirected login page" width="1034"/>
+                <img src="b228a43f0e443ead946dc75a8d01725fd558dbf858dc8a1bd76b573656315545.png" title=" Then I verify user is redirected to Login page successfully (completed)" width="1034"/>
+                <img src="403c29e5a4cd3adddeb6d9fbe5b0ec7ab72d1753744258303eb0fda407d8a01c.png" title=" When I enter &quot;krishhsubash@gmail.com&quot; as username in login page successfully" width="1034"/>
+                <img src="403c29e5a4cd3adddeb6d9fbe5b0ec7ab72d1753744258303eb0fda407d8a01c.png" title=" Enter text login page: krishhsubash@gmail.com" width="1034"/>
+                <img src="403c29e5a4cd3adddeb6d9fbe5b0ec7ab72d1753744258303eb0fda407d8a01c.png" title=" When I enter &quot;krishhsubash@gmail.com&quot; as username in login page successfully (completed)" width="1034"/>
+                <img src="8f8343110c96488a8760822075d780be2474b8e0e734f7c18d037caf44a5ec8d.png" title=" When I click on Continue Button in login page successfully" width="1034"/>
+                <img src="8f8343110c96488a8760822075d780be2474b8e0e734f7c18d037caf44a5ec8d.png" title=" Click continue button" width="1034"/>
+                <img src="8f8343110c96488a8760822075d780be2474b8e0e734f7c18d037caf44a5ec8d.png" title=" When I click on Continue Button in login page successfully (completed)" width="1034"/>
+                <img src="518dfc10ed9c4edf97828f2ad49de68627365f76903b0590eb1da36a63651952.png" title=" When I enter &quot;!24Subash&quot; as password in login page successfully" width="1034"/>
+                <img src="518dfc10ed9c4edf97828f2ad49de68627365f76903b0590eb1da36a63651952.png" title=" Enter password login page: !24Subash" width="1034"/>
+                <img src="518dfc10ed9c4edf97828f2ad49de68627365f76903b0590eb1da36a63651952.png" title=" When I enter &quot;!24Subash&quot; as password in login page successfully (completed)" width="1034"/>
+                <img src="8f19b882870e9442bdb2120c0cde7ac27a703e51f8b2976023c98a759c53057f.png" title=" And I click on Login button in Login page successfully" width="1034"/>
+                <img src="8f19b882870e9442bdb2120c0cde7ac27a703e51f8b2976023c98a759c53057f.png" title=" Click login button" width="1034"/>
+                <img src="8f19b882870e9442bdb2120c0cde7ac27a703e51f8b2976023c98a759c53057f.png" title=" And I click on Login button in Login page successfully (completed)" width="1034"/>
+                <img src="4715201a276c56efc0ce1d321d399273c0d360c1b755aa05b07cdf0b769f8e48.png" title=" Then I verify user is logged in successfully" width="1034"/>
+                <img src="4715201a276c56efc0ce1d321d399273c0d360c1b755aa05b07cdf0b769f8e48.png" title=" Verify logged user redirected" width="1034"/>
+                <img src="4715201a276c56efc0ce1d321d399273c0d360c1b755aa05b07cdf0b769f8e48.png" title=" Then I verify user is logged in successfully (completed)" width="1034"/>
+                <img src="5faf74216a11bcbbd06dd012986ddd59240ab951e97cb90b6ed801ea99481977.png" title=" When I enter the product as &quot;cars&quot; in home page" width="1034"/>
+                <img src="5faf74216a11bcbbd06dd012986ddd59240ab951e97cb90b6ed801ea99481977.png" title=" Enterproduct: cars" width="1034"/>
+                <img src="5faf74216a11bcbbd06dd012986ddd59240ab951e97cb90b6ed801ea99481977.png" title=" When I enter the product as &quot;cars&quot; in home page (completed)" width="1034"/>
+                <img src="5faf74216a11bcbbd06dd012986ddd59240ab951e97cb90b6ed801ea99481977.png" title=" Then I verify user is displayed with the search results" width="1034"/>
+                <img src="5faf74216a11bcbbd06dd012986ddd59240ab951e97cb90b6ed801ea99481977.png" title=" Verify user displayed with search results" width="1034"/>
+                <img src="5faf74216a11bcbbd06dd012986ddd59240ab951e97cb90b6ed801ea99481977.png" title=" Then I verify user is displayed with the search results (completed)" width="1034"/>
+                <img src="d391dd9f35b815b3e409230eb6f421e52b49e294e975778370adc61cbb1000e4.png" title=" When I select the product to be added in cart in search results page" width="1034"/>
+                <img src="d391dd9f35b815b3e409230eb6f421e52b49e294e975778370adc61cbb1000e4.png" title=" Select product to be added" width="1034"/>
+                <img src="d391dd9f35b815b3e409230eb6f421e52b49e294e975778370adc61cbb1000e4.png" title=" When I select the product to be added in cart in search results page (completed)" width="1034"/>
+                <img src="910638bf32703359c527d4a06f99f464cadab647ec3a8d5e7acef9f23a8eb7ae.png" title=" Then I verify user is able to select the quantity in the dropdown" width="1034"/>
+                <img src="910638bf32703359c527d4a06f99f464cadab647ec3a8d5e7acef9f23a8eb7ae.png" title=" Verify user selects quantity" width="1034"/>
+                <img src="910638bf32703359c527d4a06f99f464cadab647ec3a8d5e7acef9f23a8eb7ae.png" title=" Then I verify user is able to select the quantity in the dropdown (completed)" width="1034"/>
+                <img src="3eebc6ac84934f75f32ff19d8dc6b1af9df405e9b5de3991efac05abf68ac9b4.png" title=" When I click on Add to Cart button" width="1034"/>
+                <img src="3eebc6ac84934f75f32ff19d8dc6b1af9df405e9b5de3991efac05abf68ac9b4.png" title=" Click add to cart" width="1034"/>
+                <img src="3eebc6ac84934f75f32ff19d8dc6b1af9df405e9b5de3991efac05abf68ac9b4.png" title=" When I click on Add to Cart button (completed)" width="1034"/>
+                <img src="8a50a61c2de81792264a8283558f99f15d3c70338630182329ce4e46e5b258c3.png" title=" Then I verify the product is added to cart successfully" width="1034"/>
+                <img src="8a50a61c2de81792264a8283558f99f15d3c70338630182329ce4e46e5b258c3.png" title=" Verify product added to cart" width="1034"/>
+                <img src="8a50a61c2de81792264a8283558f99f15d3c70338630182329ce4e46e5b258c3.png" title=" Then I verify the product is added to cart successfully (completed): <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.48</span>
+</div>
+</body>
+</html>

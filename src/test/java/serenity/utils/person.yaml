@@ -1,0 +1,16 @@
+# Details of a user
+---
+Page: Test Page
+  jenkins:
+    container_name: jenkins
+    image: "jenkins/jenkins:lts"
+    restart: always
+    volumes:
+    - /var/run/docker.sock:/var/run/docker.sock
+    - ./jenkins:/var/jenkins_home
+    - /usr/local/bin/docker:/usr/local/bin/docker
+    networks:
+      testingNet:
+        ipv4_address: 172.18.1.10
+    ports:
+    - 8080:8080

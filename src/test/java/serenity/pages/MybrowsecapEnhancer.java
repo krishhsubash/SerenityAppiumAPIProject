@@ -26,6 +26,11 @@ public class MybrowsecapEnhancer implements BeforeAWebdriverScenario {
 			options.addArguments("--disable-popup-blocking");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
+			options.addArguments("--disable-infobars");
+			options.addArguments("--disable-gpu");
+			options.addArguments("--privileged");
+			options.addArguments("--disable-dev-shm-usage");
+			
 
         }
         return desiredCapabilities;

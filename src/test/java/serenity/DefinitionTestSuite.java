@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features="src/test/resources/features")
+@CucumberOptions(features="src/test/resources/features/consult_dictionary/")
 public class DefinitionTestSuite {
 
 
