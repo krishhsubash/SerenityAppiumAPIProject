@@ -29,7 +29,7 @@
     "xlsx": "^0.14.2",
     "json-typescript": "^1.1.2",
     "jsonfile": "^5.0.0",
-    "yarn": "^1.15.2",
+    "yarn": "^1.17.3",
     "live-server": "^1.2.1",
     "babel-7-jest": "^21.3.3",
     "babel-cli": "^6.26.0",
