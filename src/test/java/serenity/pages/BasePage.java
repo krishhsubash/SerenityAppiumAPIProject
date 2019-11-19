@@ -1,5 +1,7 @@
 package serenity.pages;
 
+
+import com.gargoylesoftware.htmlunit.javascript.background.JavaScriptExecutor;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import io.restassured.RestAssured;
@@ -7,10 +9,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import net.serenitybdd.core.pages.PageObject;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,11 +17,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
+
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -36,6 +36,7 @@ public class BasePage extends PageObject {
     public Actions action;
     public static String userDir = System.getProperty("user.dir");
     WebDriverWait wait;
+
 
 
     public String getUrl() {
@@ -63,6 +64,17 @@ public class BasePage extends PageObject {
 
     public String getElementText(By element) {
         String elementText = getDriver().findElement(element).getText();
+        if(elementText.equals(null)){
+            log.error("Could not find the element :"+elementText);
+        }
+        else {
+            log.info("Element text is : "+elementText);
+        }
+        return elementText;
+    }
+
+    public String getElementPlaceHolderText(By element,String attriibuteName) {
+        String elementText = getDriver().findElement(element).getAttribute(attriibuteName);
         if(elementText.equals(null)){
             log.error("Could not find the element :"+elementText);
         }
@@ -213,6 +225,29 @@ public class BasePage extends PageObject {
         select.deselectByVisibleText(value);
     }
 
+    public void multiSelectDropDown(By element,String value1,String value2) {
+        WebElement webElement = getDriver().findElement(element);
+        Select select  = new Select(webElement);
+        if(select.isMultiple()) {
+            select.selectByValue(value1);
+            select.selectByValue(value2);
+        }
+    }
+
+    public String getFirstSelectedDropDown(By element) {
+        WebElement webElement = getDriver().findElement(element);
+        Select select   = new Select(webElement);
+        String selectedValue = select.getFirstSelectedOption().getText();
+        return selectedValue;
+    }
+
+    /*public List<String> getAllSelectedDropDown(By element) {
+        WebElement webElement = getDriver().findElement(element);
+        Select select   = new Select(webElement);
+        List<String> selectedValue = select.getAllSelectedOptions();
+        return selectedValue;
+    }
+ */
     public void clickRadioButton(By radioButtonElement) {
         getDriver().findElement(radioButtonElement).click();
     }
@@ -419,6 +454,26 @@ public class BasePage extends PageObject {
         return elementEnabled;
     }
 
+    public List<String> displayBrokenLink() {
+        List<WebElement> links = getDriver().findElements(By.tagName("a"));
+        List<String> invalidLink = new ArrayList<>();
+        for(WebElement link : links) {
+            try {
+                URL url = new URL(link.getText()) ;
+                HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+                conn.setConnectTimeout(10000);
+                conn.connect();
+                if(conn.getResponseCode()!=200) {
+                    invalidLink.add(link.getAttribute("href"));
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+        return invalidLink;
+    }
+
     public void maximizeWindow() {
         getDriver().manage().window().maximize();
     }
@@ -446,5 +501,29 @@ public class BasePage extends PageObject {
         given().log().all().when().then().statusCode(200);
     }
 
+    public void scrollToElement(By element) {
+        JavascriptExecutor js = (JavascriptExecutor)getDriver();
+        js.executeScript("argument[0].scrollIntoView(true)",element);
 
+    }
+
+
+    public void waitUntilPageLoad() {
+        JavascriptExecutor js = (JavascriptExecutor)getDriver();
+        int i = 0;
+        while(i!=20) {
+            String pageState = (String)js.executeScript("return document.readyState;");
+            if(pageState.equals("Complete")) {
+                break;
+            }
+            else {
+                i++;
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 }
